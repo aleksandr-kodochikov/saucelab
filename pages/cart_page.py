@@ -28,7 +28,7 @@ class Cart_page(Base):
     def click_checkout_button(self):
         self.driver.execute_script("window.scrollTo(0, 0)")
         self.get_checkout_button().click()
-        print('Click checkout button')
+        print('Click Checkout Button')
 
     # Methods
 
